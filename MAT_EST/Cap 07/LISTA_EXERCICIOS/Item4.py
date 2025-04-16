@@ -16,8 +16,8 @@ def calcDistEuclid(vet1, vet2):
 
 #START
 vetor1 = [1, 2, 3]
-vetor2 = [4, 5, 6]
-vetor3 = [7, 8, 9]
+vetor2 = [5, 7.0, 1/6]
+vetor3 = [1.4, 0.33, 2.2]
 
 distEuc2 = calcDistEuclid(vetor1, vetor2)
 distEuc3 = calcDistEuclid(vetor1, vetor3)

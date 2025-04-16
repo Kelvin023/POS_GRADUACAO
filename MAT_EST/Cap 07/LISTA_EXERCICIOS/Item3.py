@@ -12,8 +12,8 @@ def distancia_euclidiana(vetor1, vetor2):
     return math.sqrt(soma)
 
 # Exemplo de uso:
-vetor_a = [1, 2, 3]
-vetor_b = [4, 5, 6]
+vetor_a = [1, 2, 3, 4]
+vetor_b = [5, 6, 7, 8]
 
 resultado = distancia_euclidiana(vetor_a, vetor_b)
 print(f"A distância euclidiana é: {resultado}")

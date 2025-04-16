@@ -13,9 +13,14 @@ def distancia_euclidiana(vetor1, vetor2):
     soma = sum((a - b) ** 2 for a, b in zip(vetor1, vetor2))
     return math.sqrt(soma)
 
+#START
 # Exemplo de uso:
 vetor_a = [1, 2]#pra causar o erro propositalmente mesmo
 vetor_b = [4, 5, 6]
 
-resultado = distancia_euclidiana(vetor_a, vetor_b)
-print(f"A distância euclidiana é: {resultado}")
+try:
+    distancia = distancia_euclidiana(vetor_a, vetor_b)
+    print(f"A distância euclidiana é: {distancia}")
+except ValueError as e:
+    print(f"Erro: {e}")
+#END
