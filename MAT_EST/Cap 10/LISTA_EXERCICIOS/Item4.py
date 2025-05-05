@@ -3,11 +3,11 @@
 import numpy as np
 
 #START
-matriz = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+matriz = [[1, 2, 3], [0, 1, 4], [5, 6, 0]]
 
 try:
     inversa = np.linalg.inv(matriz)
-    print(f"Inversa da matriz {matriz} é: {inversa}")
+    print(f"Inversa da matriz {matriz} é: \n{inversa}")
 except np.linalg.LinAlgError as e:
     print(f"Erro: {e}. A matriz não é inversível.") 
 #END
