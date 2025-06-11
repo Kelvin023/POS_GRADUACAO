@@ -14,5 +14,5 @@ n = 100  # Número de e-mails enviados
 p = 0.20  # Probabilidade de um e-mail ser aberto
 # Calculando a probabilidade de pelo menos 25 e-mails serem abertos
 probabilidade = 1 - binom.cdf(24, n, p)  # CDF até 24 e-mails abertos
-print(f"A probabilidade de pelo menos 25 e-mails serem abertos é: {probabilidade:.4f}")
+print(f"A probabilidade de pelo menos 25 e-mails serem abertos é: {probabilidade * 100:.2f}%")
 #END

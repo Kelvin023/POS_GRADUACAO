@@ -10,6 +10,5 @@ Calcule a probabilidade de cada setor ser escolhido ao longo de um ano.
 #START
 P = 1 / 5  # Probabilidade de cada setor ser escolhido em um mês
 
-N = 12 * P  # Probabilidade de cada setor ser escolhido ao longo de um ano
-print(f"A probabilidade de cada setor ser escolhido ao longo de um ano é: {N:.2f}")
+print(f"A probabilidade de cada setor ser escolhido ao longo de um ano é: {P:.2f}")
 #END
